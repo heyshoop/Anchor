@@ -73,6 +73,16 @@ public class sysUserController extends BaseController{
     /**
      * @Author: 阁楼麻雀
      * @Date: 2017/8/10 下午3:45
+     * @Desc: 用户中心
+     */
+    @RequiresPermissions("sys:user:view")
+    @RequestMapping(value = {"welcome"})
+    public String welcome(User user,Model model){
+        return "modules/sys/welcome";
+    }
+    /**
+     * @Author: 阁楼麻雀
+     * @Date: 2017/8/10 下午3:45
      * @Desc: 查询用户列表
      */
     @RequiresPermissions("sys:user:view")
