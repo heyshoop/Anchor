@@ -57,14 +57,14 @@
         <description>获取当前用户对象</description>
         <name>getUser</name>
         <function-class>cn.sheetanchor.common.utils.UserUtils</function-class>
-        <function-signature>cn.sheetanchor.sparrow.sys.model.SysUser getUser() </function-signature>
+        <function-signature>cn.sheetanchor.sparrow.sys.model.User getUser() </function-signature>
         <example>${fns:getUser()}</example>
     </function>
     <function>
         <description>根据编码获取用户对象</description>
         <name>getUserById</name>
         <function-class>cn.sheetanchor.common.utils.UserUtils</function-class>
-        <function-signature>cn.sheetanchor.sparrow.sys.model.SysUser  get(java.lang.String)</function-signature>
+        <function-signature>cn.sheetanchor.sparrow.sys.model.User  get(java.lang.String)</function-signature>
         <example>${fns:getUserById(id)}</example>
     </function>
 
