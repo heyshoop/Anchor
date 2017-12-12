@@ -8,7 +8,7 @@
     <display-name>JSTL functions sys</display-name>
     <tlib-version>1.1</tlib-version>
     <short-name>fns</short-name>
-    <uri>http://java.sun.com/jsp/jstl/functions</uri>
+    <uri>http://java.sun.com/jsp/jstl/functionss</uri>
 
     <!--系统相关基础属性-->
     <function>
